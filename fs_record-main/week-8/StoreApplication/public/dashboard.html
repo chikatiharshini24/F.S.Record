@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Store Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <h1>🛒 My Store Dashboard</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Home
+            </a>
+
+            <a href="index.html">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <section class="dashboard">
+
+        <h2>Welcome to the Store!</h2>
+
+        <p>
+            Choose a product you want to buy.
+        </p>
+
+
+        <div class="products">
+
+
+            <div class="product">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"
+                    alt="Mobile Phone"
+                >
+
+                <h3>Mobile Phone</h3>
+
+                <p>₹15,000</p>
+
+                <button
+                    onclick="buyProduct('Mobile Phone')"
+                >
+                    Buy Now
+                </button>
+
+            </div>
+
+
+            <div class="product">
+
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+                    alt="Headphones"
+                >
+
+                <h3>Headphones</h3>
+
+                <p>₹2,000</p>
+
+                <button
+                    onclick="buyProduct('Headphones')"
+                >
+                    Buy Now
+                </button>
+
+            </div>
+
+
+            <div class="product">
+
+                <img
+                    src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500"
+                    alt="Laptop"
+                >
+
+                <h3>Laptop</h3>
+
+                <p>₹50,000</p>
+
+                <button
+                    onclick="buyProduct('Laptop')"
+                >
+                    Buy Now
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
